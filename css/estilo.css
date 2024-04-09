@@ -1,7 +1,40 @@
 body{ 
-    background-color: #E6E6FA;
+    background-color:#FFFAFA;
 }
 
-    img{
-        width: 20%;
-    }
+header{
+    background-color:#9370DB ;
+    padding: 3%;
+}
+
+logo{
+    background-color: #00CED1;
+}
+   
+nav{
+    background-color:  #C71585;
+}
+
+main{
+    background-color: #48D1CC;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: #1E90FF;
+}
+
+footer{
+    background-color: #48D1CC;
+    padding: 3%;
+}
+
+.cabecalho{
+    padding: 3%;
+}
+
+.rodape{
+    padding: 3%;
+}
