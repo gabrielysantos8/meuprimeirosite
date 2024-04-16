@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color:#9370DB ;
+    background-color:#8B8989 ;
     padding: 3%;
 }
 
@@ -12,22 +12,22 @@ logo{
 }
    
 nav{
-    background-color:  #C71585;
+    background-color: #FF0000;
 }
 
 main{
-    background-color: #48D1CC;
+    background-color: #FF0000;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: #1E90FF;
+    background-color:  #FFD700;
 }
 
 footer{
-    background-color: #48D1CC;
+    background-color:#8B8989;
     padding: 3%;
 }
 
