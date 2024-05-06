@@ -5,7 +5,8 @@ body{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    background-image: url(../img/fundo.webp);
+    background-image: url(../img/fundo\ salao\ principal.jpg);
+    background-attachment: fixed;
     background-size: cover;
     
 }
@@ -15,7 +16,7 @@ header{
     padding: 3%;
 }
 
-logo{
+.logo{
     background-color: #8B8989;
 }
    
@@ -82,3 +83,4 @@ table{
 .titulotabela{
     text-align: center;
 }
+
