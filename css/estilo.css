@@ -21,18 +21,18 @@ header{
 }
    
 nav{
-    background-color:#006400;
+    background-color:#fa3232;
 }
 
 main{
-    background-color:#006400;
+    background-color:#8B5A2B ;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: #27408B;
+    background-color: 	#ffe862;
 }
 
 footer{
@@ -53,6 +53,13 @@ h1{
 }
 
 .titulos{
+    color: #8B4513;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo{
     line-height: 3;
     text-align: center;
     font-weight: bold;
