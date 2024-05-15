@@ -134,5 +134,29 @@ a:link {
     color: #1C86EE;
     background-color: transparent;
     text-decoration: underline;
+  }
 
+
+  .menu:link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .menu:visited {
+    color: #FFD700;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .menu:hover {
+    color: #1C86EE;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .menu:active {
+    color:rgb(17, 110, 45) ;
+    background-color: transparent;
+    text-decoration: underline;
   }
