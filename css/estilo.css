@@ -32,6 +32,7 @@ main{
 
 section{
     background-color: 	#ffe862;
+    padding: 1%;
 }
 
 footer{
@@ -82,7 +83,6 @@ td, th {
 table{
     width: 80%;
     margin-bottom : .5em;
-    table-layout: fixed;
     text-align: center;
     margin: auto;
   }
