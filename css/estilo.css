@@ -144,7 +144,7 @@ a:link {
   }
   
   .menu:visited {
-    color: #FFD700;
+    color:  #8B4513;
     background-color: transparent;
     text-decoration: none;
   }
@@ -159,4 +159,17 @@ a:link {
     color:rgb(17, 110, 45) ;
     background-color: transparent;
     text-decoration: underline;
+  }
+
+  .direita{
+    float:right;
+    width: 40%;
+    margin-left: 2%;
+  
+  }
+  
+  .esquerda{
+    float: left;
+    width: 30%;
+    margin-right: 2%;
   }
