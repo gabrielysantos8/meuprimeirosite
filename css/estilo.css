@@ -163,13 +163,13 @@ a:link {
 
   .direita{
     float:right;
-    width: 40%;
+    width: 15%;
     margin-left: 2%;
   
   }
   
   .esquerda{
     float: left;
-    width: 30%;
+    width: 15%;
     margin-right: 2%;
   }
