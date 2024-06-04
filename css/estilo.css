@@ -52,6 +52,7 @@ h1{
     line-height: 3;
 }
 
+
 .titulos{
     color: #8B4513;
     line-height: 3;
@@ -111,6 +112,21 @@ table{
     margin-left: 1%;
     margin-right: 1%;
 }
+
+@media only screen and (max-width: 1100px) {
+  /* For mobile phones: */
+  [class*="col-3"] {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  [class*="col-3"] {
+    width: 100%;
+  }
+}
+
 
 a:link {
     color: #8B4513;
@@ -172,4 +188,7 @@ a:link {
     float: left;
     width: 20%;
     margin-right: 2%;
+  }
+  .texto{
+    text-align: center;
   }
