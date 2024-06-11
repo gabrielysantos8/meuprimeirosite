@@ -192,3 +192,21 @@ a:link {
   .texto{
     text-align: center;
   }
+
+  .autora{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    opacity: 0.6;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 200px;
+    font-size: 18px;
+  }
