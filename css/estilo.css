@@ -197,7 +197,7 @@ a:link {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
-    opacity: 0.6;
+    opacity: 0.7;
   }
 
   .container {
@@ -207,6 +207,26 @@ a:link {
   .topleft {
     position: absolute;
     top: 8px;
-    left: 200px;
+    left: 220px;
     font-size: 18px;
+  }
+
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 220px;
+    font-size: 18px;
+  }
+
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 220px;
+    font-size: 18px;
+  }
+
+  .livrosum {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
   }
