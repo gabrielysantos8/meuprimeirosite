@@ -16,11 +16,13 @@
         <div class="logo">
             <img class="logo" src="img/harry potter logo.webp" alt="harry potter casas">
         </div>
-        <nav> 
+        <nav id="menu"> 
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul>
-                <li><a class="menu" href="index2.html">Livros</a></li>
-                <li><a class="menu" href="#">Elenco</a></li>
-                <li><a class="menu" href="#">Casas</a></li>
+                <li><a class="menu" href="index2.html"  onclick="document.getElementById('menu-toggle').click()">Livros</a></li>
+                <li><a class="menu" href="index3.html" onclick="document.getElementById('menu-toggle').click()">Elenco</a></li>
+                <li><a class="menu" href="#" onclick="document.getElementById('menu-toggle').click()">Casas</a></li>
             </ul>
         </nav>
     </header>
@@ -258,7 +260,7 @@
         </section>
     </main>  
     <footer class="rodape">
-        <p class="texto">Desenvolvido por Gabriely Santos </p>
+        <p class="texto">Desenvolvido por Gabriely Santos</p>
     </footer>
 </body>
 </html>      

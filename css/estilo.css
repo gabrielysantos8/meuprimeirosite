@@ -13,21 +13,54 @@ body{
 header{
     background-color:#8B8989 ;
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
     background-color: #8B8989;
+    width: 30%;
 }
    
 nav{
-    background-color:#ff5050;
+    background-color:  #8B8989;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
 
 main{
     background-color:#8B5A2B ;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15%;
 }
 
 section{
@@ -41,8 +74,15 @@ footer{
 }
 
 .cabecalho{
-    padding: 3%;
+    display: flex;   
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
 }
+
 
 .rodape{
     padding: 3%;
@@ -127,6 +167,42 @@ table{
   }
 }
 
+@media only screen and (max-width: 800px){
+  .menu-icon {
+    display: block;
+    padding-right: 10px;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(225, 65, 65, 0.4);
+    top: 60px;
+    left: 0;
+    z-index: 1;
+    padding: 0;
+}
+
+#menu-toggle:checked + .menu-icon + ul {
+    display: flex;
+}
+
+nav ul li {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 15px 0;
+}
+
+nav ul li label {
+    /* width: 100%; */
+    display: block;
+}
+}
 
 a:link {
     color: #8B4513;
@@ -160,7 +236,7 @@ a:link {
   }
   
   .menu:visited {
-    color:  #8B4513;
+    color:  black;
     background-color: transparent;
     text-decoration: none;
   }
@@ -228,3 +304,4 @@ a:link {
     margin-left: 30%;
     margin-right: 30%;
   }
+
