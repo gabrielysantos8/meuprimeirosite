@@ -27,6 +27,8 @@ nav{
     background-color:  #8B8989;
 }
 
+/*menu*/
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -106,6 +108,8 @@ h1{
     font-weight: bold;
 }
 
+/*tabela*/
+
 table, th, td {
     border: 1px solid;
 }
@@ -130,6 +134,8 @@ table{
 .titulotabela{
     text-align: center;
 }
+
+/*galeria*/
 
 .linha{
     display: flex;
@@ -166,6 +172,8 @@ table{
     width: 100%;
   }
 }
+
+/*menu*/
 
 @media only screen and (max-width: 800px){
   .menu-icon {
@@ -204,6 +212,8 @@ nav ul li label {
 }
 }
 
+/*links em geral*/
+
 a:link {
     color: #8B4513;
     background-color: transparent;
@@ -228,6 +238,7 @@ a:link {
     text-decoration: underline;
   }
 
+/*links do menu*/
 
   .menu:link {
     color: #000000;
@@ -252,6 +263,7 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+/*float*/
 
   .direita{
     float:right;
@@ -268,6 +280,8 @@ a:link {
   .texto{
     text-align: center;
   }
+
+  /*texto em cima da imagem*/
 
   .autora{
     width: 100%;
@@ -305,3 +319,20 @@ a:link {
     margin-right: 30%;
   }
 
+/*galeria elenco*/
+
+.col-2{
+  width: 15%;
+
+}
+
+.col-2 p{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.imggaleriaelenco{
+  width: 90%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
