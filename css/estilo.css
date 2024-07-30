@@ -92,6 +92,15 @@ footer{
 
 h1{
     line-height: 3;
+    font-size: 2em;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+h3{
+  font-size: 1em;
 }
 
 
@@ -393,4 +402,12 @@ a:link {
   [class*="col3"] {
     width: 100%;
   }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:target{
+  scroll-margin-top: 150px;
 }
