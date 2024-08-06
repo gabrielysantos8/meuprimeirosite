@@ -411,3 +411,22 @@ html{
 :target{
   scroll-margin-top: 150px;
 }
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  
+}
+
+input[type=text], select, textarea, input[type=tel], input[type=email] {
+  width: 90%;
+  padding: 12px;
+  border-radius: 15px;
+  resize: vertical;
+
+}
+
+.botaoform{
+  border-radius: 25px;
+}
